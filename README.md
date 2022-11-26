@@ -7,6 +7,9 @@ science related readings that interest me.
 This repo will be updated whenever there is something new to add and as long as 
 it is useful.
 
+A To Be Read list (ala Goodreads) to track of papers I want to read can be found
+at [tbr.md](tbr.md).
+
 Below are some places to look for papers. Mostly for me, if I'm bored, want to 
 read a computer science paper, and have nothing already in mind.
 
