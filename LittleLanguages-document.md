@@ -87,6 +87,69 @@ having an AI do the rest is a step backwards in some sense, from this perspectiv
 
 # A Conversation with Alan Kay
 [link](https://queue.acm.org/detail.cfm?id=1039523)
+- Lots of things in here on programming languages and software development as a
+whole, I'll list some of them I found most interesting (at least on the first
+couple passes) below
+- Idea of "pop culture" vs. "literary culture" in programming
+    - A lot what makes a language popular is not necessarily intrinsic merit,
+but rather how it was marketed or explained to the public
+    - Commercialization and rapid dispersion of computing led to a sort of 
+lowest common denominator spread of ideas in software, see large quote below
+> One could actually argue—as I sometimes do—that the success of commercial 
+personal computing and operating systems has actually led to a considerable 
+retrogression in many, many respects.
+
+> You could think of it as putting a low-pass filter on some of the good ideas 
+from the ’60s and ’70s, as computing spread out much, much faster than educating 
+unsophisticated people can happen. In the last 25 years or so, we actually got 
+something like a pop culture, similar to what happened when television came on 
+the scene and some of its inventors thought it would be a way of getting 
+Shakespeare to the masses. But they forgot that you have to be more 
+sophisticated and have more perspective to understand Shakespeare. What 
+television was able to do was to capture people as they were.
+
+> So I think the lack of a real computer science today, and the lack of real 
+software engineering today, is partly due to this pop culture.
+- The idea of a "pop culture" in computer science/programming that has led to a
+decrease in quality of software and a lack of "real" computer science seems a 
+little arrogant, but I think there is truth there, e.g. Javascript being an
+objectively terrible language but perhaps also the most widely interacted with
+- Kay believes a programming language is primarily a user interface and should
+be elegant, rather than an "agglutination" of features (UI should be understandable,
+instead of looking like a nuclear reactor control panel)
+    - Languages can be divided into "agglutinative languages" (where features
+are simply stacked together without a core connecting thread), and "style languages",
+which have "a real center and imputed style to how you’re supposed to do everything"
+    - Agglutinative languages leads to agglutinative (read: messy and bloated) code,
+while style languages lead to more elegant results
 
 # No Silver Bullet
 [link](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
+- Introduces the idea of "essence" vs. "accident" in software engineering
+    - Essence = the essential difficulties (which cannot be removed)
+    - Accident = the accidental complexities (which should be removed)
+    - This can be seen as a direct parallel to the arguments for "little 
+languages" above, although Brooks does not explictly suggest that particular solution
+- Focus of the article is on how to improve software quality and programmer
+productivity, which means removing as much accident as possible and making the 
+essence easier
+- On AI: AI in the sense of "natural language programming" (which Brooks
+calls "facilitation of expression") is not useful. However, AI as an "expert 
+system" (which basically entails a programming advisor program) could be very
+useful.
+    - "The hard thing about building software is deciding what to say, not saying it."
+    - An "expert system" can try to distill knowledge from human experts into
+generalizable heuristics and act as expert guidance by suggesting best practices,
+helping digest codebase complexity, etc.
+- Grow, not build software
+    - Probably what I found most interesting, since the idea of "building" 
+software is so prevalent today (it's what everyone seems to say, perhaps
+unconsciously)
+    - "Building" software has led to overly complex, bloated software that lacks
+cohesiveness (similar to "agglutination" in the words of Alan Kay)
+    - Software today is too complex to be specified in advance and be built
+flawlessly
+    - Should instead try to grow software organically, fleshed out bit-by-bit,
+but should run at each stage of its development 
+    - Brooks claims that designing programs to be "grown" organically, from the
+outset, has resulted in "dramatic results" in his classes
