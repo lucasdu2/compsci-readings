@@ -10,6 +10,9 @@ it is useful.
 A To Be Read list (ala Goodreads) to track of papers I want to read can be found
 at [tbr.md](tbr.md).
 
+A good paper reading technique is introduced in 
+["How to Read a Paper" (Keshav)](http://web.stanford.edu/class/cs245/readings/how-to-read-a-paper.pdf).
+
 Below are some places to look for papers. Mostly for me, if I'm bored, want to 
 read a computer science paper, and have nothing already in mind.
 
