@@ -25,3 +25,15 @@ FAST, and NSDI
 - [ACM](https://dl.acm.org/) publications (although these are not all publicly 
 accessible), especially from [PODC](https://www.podc.org/)
 
+Here are some people in the computer science world that I currently think
+are interesting/inspiring. This is also mostly just for me.
+- [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)
+- [Remzi Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/), [Andrea Arpaci-Dusseau](https://pages.cs.wisc.edu/~dusseau/)
+- [Julia Evans](https://jvns.ca/)
+- [Dan Luu](https://danluu.com/)
+- [Papers We Love](https://pwlconf.org/)
+- [Jamie Brandon](https://www.scattered-thoughts.net/)
+- [James Mickens](https://mickens.seas.harvard.edu/)
+- [Leslie Lamport](https://lamport.azurewebsites.net/)
+
+
