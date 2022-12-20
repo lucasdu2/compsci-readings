@@ -35,5 +35,6 @@ are interesting/inspiring. This is also mostly just for me.
 - [Jamie Brandon](https://www.scattered-thoughts.net/)
 - [James Mickens](https://mickens.seas.harvard.edu/)
 - [Leslie Lamport](https://lamport.azurewebsites.net/)
+- [Andrew Kelly/Zig](https://ziglang.org/)
 
 
