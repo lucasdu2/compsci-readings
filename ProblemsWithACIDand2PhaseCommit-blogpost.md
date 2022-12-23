@@ -123,6 +123,36 @@ cluster of machines is too hard), but rather that its guarantees are too weak,
 and that this weakness is hindering scalability."**
 - Somewhat counterintuitively, the premise is that *stricter consistency guarantees
 will not lead to less performance, but will actually INCREASE performance, at least
-in cheap, shared-nothing distributed architectures*
-- 
+in the context of cheap, shared-nothing distributed architectures*
+- ACID scalability issues stem from its isolation property
+    - More specifically, its serializability property (which is the standard
+isolation level in fully ACID systems) causes problem for replication in a 
+distributed system, because two different replicas may execute concurrent transactions
+in different orders (but that both correspond to legal sequential orderings, so 
+they're both legal in terms of serializability), resulting in inconsistent final
+states
+- According to Abadi, "most of the intra- and inter-replica information exchange 
+that forms the basis of the scalability and replication woes of ACID systems...
+occurs when disparate nodes in the system have to forge agreement about (a) which 
+transactions should be executed, (b) which will end up being committed, and (c) 
+with equivalence to which serial order."
+- However, if the isolation property is **strengthened** to only allow equivalence
+to a **predetermined serial order**, we no longer have problems for (a) and (c)
+- And if we disallow system-level arbitrary aborts (as mentioned in the above
+blog post on 2PC), (b) is also no longer a problem
+- This idea is the basis of Abadi's work on **deterministic database systems**
+    - If we can pre-define what *should* happen for some set of concurrent 
+transactions, we no longer have to pay the overhead for dealing with on-the-fly,
+unexpected orderings or failures
+- But of course, this is **not free**
+    - By taking on this strengthened isolation guarantee, we also take on some
+additional problems, some of which Abadi lists
+    1. We have to somehow avoid deadlocks, which lead to arbitrary system-level aborts
+    2. We have to somehow deal with general system-level failures without aborting
+    3. We have to allow highly concurrent execution *without* allowing for on-the-fly reordering
+- But the advantages are clear
+    1. Active replication is trivial and strongly consistent
+    2. No more need for distributed commit protocols
+- These general ideas are filled out in more depth in the corresponding paper:
+[The Case for Determinism in Database Systems](http://dslam.cs.umd.edu/determinism-vldb10.pdf)
 
