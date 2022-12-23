@@ -7,8 +7,7 @@ deterministic database systems, and more broadly, a desire for more performant
 distributed protocols. 
 
 # It’s Time to Move on from Two Phase Commit
-[link](http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html)
-
+[link](http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html),
 [internet archive link](https://web.archive.org/web/20220826233144/http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html)
 
 ## Background Knowledge
@@ -88,8 +87,7 @@ generate a working base from which we can recover from failure--this comes with
 its own set of challenges that are not explicity addressed in the post
 
 # The problems with ACID, and how to fix them without going NoSQL
-[link](http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html)
-
+[link](http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html),
 [internet archive link](https://web.archive.org/web/20221206092937/http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html)
 
 ## Background
