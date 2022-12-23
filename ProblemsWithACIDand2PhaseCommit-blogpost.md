@@ -8,6 +8,7 @@ distributed protocols.
 
 # It’s Time to Move on from Two Phase Commit
 [link](http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html)
+
 [internet archive link](https://web.archive.org/web/20220826233144/http://dbmsmusings.blogspot.com/2019/01/its-time-to-move-on-from-two-phase.html)
 
 ## Background Knowledge
@@ -82,9 +83,48 @@ communication needed to handle them
 - But this obviously isn't a free win, since system-level failures can clearly
 still happen, even if we choose not abort when they happen; we have to handle them 
 in some other way
-- TODO...
+- It seems to me that we will need to store more data on each worker in order to
+generate a working base from which we can recover from failure--this comes with
+its own set of challenges that are not explicity addressed in the post
 
 # The problems with ACID, and how to fix them without going NoSQL
 [link](http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html)
+
 [internet archive link](https://web.archive.org/web/20221206092937/http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html)
-- TODO...
+
+## Background
+- According to Abadi, much of the impetus to adopt NoSQL comes from the limitations
+ACID itself puts on scalability
+- NoSQL systems are not really about eliminating SQL, but rather about increasing
+scalability on commodity-hardware, shared-nothing cloud architectures (which 
+are quite common at the moment)
+    - It does this by loosening ACID requirements
+    - Thus, in Abadi's view, "NoSQL really means NoACID"
+- Generally, guaranteeing ACID properties for transactions that operate across
+multiple machines is very complicated and difficult
+    - Atomicity requires a distributed commit protocol
+    - Isolation requires that the transaction hold all its locks for the duration
+of the protocol
+    - Additionally, the need for high availability often means we have to use
+strongly consistent replication schemes, which are expensive
+> In summary, it is really hard to guarantee ACID across scalable, highly 
+available, shared-nothing systems due to complex and high overhead commit 
+protocols, and difficult tradeoffs in available replication schemes.
+- NoSQL solutions loosen ACID guarantees to achieve higher performance
+- It is the view of Abadi and his collaborators that this is the "lazy solution"
+    - Essentially, the problems of ensuring ACID properties gets shifted from
+the underlying database to the application itself (and by extension, the
+programmers, who have to deal with the resulting implementation overhead)
+
+## Novel Ideas
+- Instead of relaxing ACID, Abadi wants a way for fully ACID systems to be able to 
+scale on shared-nothing architectures
+- The core insight is this: **"...the problem with ACID is not that its guarantees 
+are too strong (and that therefore scaling these guarantees in a shared-nothing 
+cluster of machines is too hard), but rather that its guarantees are too weak, 
+and that this weakness is hindering scalability."**
+- Somewhat counterintuitively, the premise is that *stricter consistency guarantees
+will not lead to less performance, but will actually INCREASE performance, at least
+in cheap, shared-nothing distributed architectures*
+- 
+
