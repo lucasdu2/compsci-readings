@@ -10,6 +10,11 @@ Queue of unread webpages/documents/papers.
 - CAP theorem:
     - [Perspectives on the CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
     - [Problems with CAP, and Yahoo’s little known NoSQL system](http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html)
+- io_uring:
+    - [Efficient IO with io_uring](https://kernel.dk/io_uring.pdf)
+    - [Lord of the io_uring](https://unixism.net/loti/index.html)
+    - [Getting Hands on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
+- [Meltdown and Spectre](https://meltdownattack.com/)
 - [What is eBPF?](https://ebpf.io/what-is-ebpf/)
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 - [Programming and Scaling (Alan Kay)](https://www.youtube.com/watch?v=YyIQKBzIuBY)
