@@ -16,13 +16,18 @@ A good paper reading technique is introduced in
 Below are some places to look for papers. Mostly for me, if I'm bored, want to 
 read a computer science paper, and have nothing already in mind.
 
-- [DistSys Reading Group](http://charap.co/category/reading-group/)
-- [db-readings](https://github.com/rxin/db-readings)
-- [Readings in Database Systems](http://www.redbook.io/)
-- [ACM Queue](https://queue.acm.org/), particularly the Research for Practice tag
-- [USENIX](https://www.usenix.org/conferences) conferences, particularly OSDI, 
+- **Distributed Systems**
+    - [DistSys Reading Group](http://charap.co/category/reading-group/)
+    - Reading lists: [1](http://dancres.github.io/Pages/), [2](https://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html)
+    - Long-form notes: [Notes on Theory of Distributed Systems](http://cs-www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf)
+- **Databases**
+    - [db-readings](https://github.com/rxin/db-readings)
+    - [Readings in Database Systems](http://www.redbook.io/)
+- **General**
+    - [ACM Queue](https://queue.acm.org/), particularly the Research for Practice tag
+    - [USENIX](https://www.usenix.org/conferences) conferences, particularly OSDI, 
 FAST, and NSDI
-- [ACM](https://dl.acm.org/) publications (although these are not all publicly 
+    - [ACM](https://dl.acm.org/) publications (although these are not all publicly 
 accessible), especially from [PODC](https://www.podc.org/)
 
 Here are some people in the computer science world that I currently think

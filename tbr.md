@@ -16,6 +16,12 @@ Queue of unread webpages/documents/papers.
     - [Getting Hands on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
 - [Meltdown and Spectre](https://meltdownattack.com/)
 - [What is eBPF?](https://ebpf.io/what-is-ebpf/)
+- [Gossip Algorithms for Distributed Signal Processing](https://arxiv.org/pdf/1003.5309.pdf)
+- NTP/Marzullo's Algorithm:
+    - [A Brief History of NTP Time: Confessions of an Internet Timekeeper](https://www.eecis.udel.edu/~mills/database/papers/history.pdf)
+    - [Maintaining Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
+    - [Marzullo's Algorithm](https://en.wikipedia.org/wiki/Marzullo%27s_algorithm)
+- [Secure Multi-Party Computation](https://github.com/rdragos/awesome-mpc#theory)
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 - [Programming and Scaling (Alan Kay)](https://www.youtube.com/watch?v=YyIQKBzIuBY)
 - [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf) 
