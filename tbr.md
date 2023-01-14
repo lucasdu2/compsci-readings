@@ -22,6 +22,9 @@ Queue of unread webpages/documents/papers.
     - [Maintaining Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
     - [Marzullo's Algorithm](https://en.wikipedia.org/wiki/Marzullo%27s_algorithm)
 - [Secure Multi-Party Computation](https://github.com/rdragos/awesome-mpc#theory)
+- [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
+- [System level concurrency control for distributed database systems](https://dl.acm.org/doi/pdf/10.1145/320251.320260)
+    - Specifically looking at deadlock-prevention techniques like wound-wait
 - [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 - [Programming and Scaling (Alan Kay)](https://www.youtube.com/watch?v=YyIQKBzIuBY)
 - [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf) 

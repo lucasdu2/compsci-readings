@@ -23,6 +23,7 @@ read a computer science paper, and have nothing already in mind.
 - **Databases**
     - [db-readings](https://github.com/rxin/db-readings)
     - [Readings in Database Systems](http://www.redbook.io/)
+    - [VLDB](http://vldb.org/pvldb)
 - **General**
     - [ACM Queue](https://queue.acm.org/), particularly the Research for Practice tag
     - [USENIX](https://www.usenix.org/conferences) conferences, particularly OSDI, 
