@@ -7,6 +7,7 @@ Queue of unread webpages/documents/papers.
     - [An Overview of Deterministic Database Systems](https://www.cs.umd.edu/~abadi/papers/abadi-cacm2018.pdf)
     - [Deterministic Databases and the Future of Data Sharing](https://thenewstack.io/deterministic-databases-and-the-future-of-data-sharing/)
     - Contrast to NoSQL: [NoSQL Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
+    - [SLOG: Serializable, Low-latency, Geo-replicated Transactions](http://www.cs.umd.edu/~abadi/papers/1154-Abadi.pdf)
 - CAP theorem:
     - [Perspectives on the CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
     - [Problems with CAP, and Yahoo’s little known NoSQL system](http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html)
