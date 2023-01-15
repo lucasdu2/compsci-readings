@@ -1,10 +1,13 @@
 A pair of articles giving a broad overview of deterministic databases, as well 
 as their possible applications in industry. 
 
+Related to [these notes](ProblemsWithACIDand2PhaseCommit-blogpost.md).
+
 # An Overview of Deterministic Database Systems
 [link](https://www.cs.umd.edu/~abadi/papers/abadi-cacm2018.pdf)
 
 # Deterministic Databases and the Future of Data Sharing
+**Article date: 09-29-2022**
 [link](https://thenewstack.io/deterministic-databases-and-the-future-of-data-sharing/)
 - Problem: sharing data across different clouds/regions/isolated systems
     - Companies that share data often want a "single source of truth"
