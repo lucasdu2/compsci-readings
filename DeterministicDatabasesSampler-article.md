@@ -4,7 +4,11 @@ as their possible applications in industry.
 Related to [these notes](ProblemsWithACIDand2PhaseCommit-blogpost.md).
 
 # An Overview of Deterministic Database Systems
+**Authors: DANIEL J. ABADI, JOSE M. FALEIRO**
 [link](https://www.cs.umd.edu/~abadi/papers/abadi-cacm2018.pdf)
+- Summary article based on current research (as of 2018) on deterministic
+databases; Abadi is one of the main drivers of this research and is the first
+author on this article
 
 # Deterministic Databases and the Future of Data Sharing
 **Article date: 09-29-2022**
