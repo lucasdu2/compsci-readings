@@ -15,6 +15,7 @@ Queue of unread webpages/documents/papers.
     - [Efficient IO with io_uring](https://kernel.dk/io_uring.pdf)
     - [Lord of the io_uring](https://unixism.net/loti/index.html)
     - [Getting Hands on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
+    - [Faster IO through io_uring](https://www.youtube.com/watch?v=-5T4Cjw46ys&t=62s)
 - [Meltdown and Spectre](https://meltdownattack.com/)
 - [What is eBPF?](https://ebpf.io/what-is-ebpf/)
 - [Gossip Algorithms for Distributed Signal Processing](https://arxiv.org/pdf/1003.5309.pdf)
