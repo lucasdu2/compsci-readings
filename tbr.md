@@ -1,10 +1,8 @@
 # To Be Read 
 Queue of unread webpages/documents/papers.
 - Deterministic database systems:
-    - [The Case for Determinism in Database Systems](http://dslam.cs.umd.edu/determinism-vldb10.pdf)
     - [Calvin](https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
     - [CalvinFS](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
-    - [An Overview of Deterministic Database Systems](https://www.cs.umd.edu/~abadi/papers/abadi-cacm2018.pdf)
     - [Deterministic Databases and the Future of Data Sharing](https://thenewstack.io/deterministic-databases-and-the-future-of-data-sharing/)
     - Contrast to NoSQL: [NoSQL Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
     - [SLOG: Serializable, Low-latency, Geo-replicated Transactions](http://www.cs.umd.edu/~abadi/papers/1154-Abadi.pdf)
@@ -12,7 +10,7 @@ Queue of unread webpages/documents/papers.
     - [Perspectives on the CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
     - [Problems with CAP, and Yahoo’s little known NoSQL system](http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html)
 - Synchronous replication in filesystems (related to eBay work, look in 
-particular at consistency guarantees, if mentioned):
+particular at consistency guarantees):
     - [Logical Synchronous Replication in the Tintri VMstore File System](https://www.usenix.org/system/files/conference/fast18/fast18-glass.pdf)
     - [Harp Filesystem](https://pmg.csail.mit.edu/papers/harp.pdf)
     - [Replication, History, and Grafting in the Ori File System](https://www.scs.stanford.edu/~dm/home/papers/mashtizadeh:ori.pdf)
