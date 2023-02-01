@@ -23,6 +23,10 @@ Queue of unread webpages/documents/papers.
     - [A Brief History of NTP Time: Confessions of an Internet Timekeeper](https://www.eecis.udel.edu/~mills/database/papers/history.pdf)
     - [Maintaining Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
     - [Marzullo's Algorithm](https://en.wikipedia.org/wiki/Marzullo%27s_algorithm)
+- Eventually consistent DBs:
+    - [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+    - [DynamoDB](https://www.usenix.org/system/files/atc22-elhemali.pdf)
+    - [Cassandra](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 - [Secure Multi-Party Computation](https://github.com/rdragos/awesome-mpc#theory)
 - [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 - [System level concurrency control for distributed database systems](https://dl.acm.org/doi/pdf/10.1145/320251.320260)
