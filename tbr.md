@@ -11,7 +11,8 @@ Queue of unread webpages/documents/papers.
 - CAP theorem:
     - [Perspectives on the CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
     - [Problems with CAP, and Yahoo’s little known NoSQL system](http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html)
-- Synchronous replication in filesystems (related to eBay work):
+- Synchronous replication in filesystems (related to eBay work, look in 
+particular at consistency guarantees, if mentioned):
     - [Logical Synchronous Replication in the Tintri VMstore File System](https://www.usenix.org/system/files/conference/fast18/fast18-glass.pdf)
     - [Harp Filesystem](https://pmg.csail.mit.edu/papers/harp.pdf)
     - [Replication, History, and Grafting in the Ori File System](https://www.scs.stanford.edu/~dm/home/papers/mashtizadeh:ori.pdf)
