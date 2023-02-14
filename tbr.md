@@ -1,5 +1,14 @@
 # To Be Read 
 Queue of unread webpages/documents/papers.
+- Merkle Trees
+    - [Merkle Trees in outsourced databases](http://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/merkleodb.pdf)
+    - [Original Merkle Tree paper](http://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/merkle.pdf)
+- [Bloom filters](http://www.eecs.harvard.edu/~michaelm/CS222/bloomsurvey.pdf)
+- P2P systems, storage:
+    - [Pastry](https://rowstron.azurewebsites.net/PAST/pastry.pdf)
+    - [Chord](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)
+    - [OceanStore](https://people.cs.uchicago.edu/~ravenben/publications/pdf/asplos00.pdf)
+    - [IPFS](https://arxiv.org/pdf/1407.3561.pdf)
 - Deterministic database systems:
     - [Calvin](https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf)
     - [CalvinFS](https://www.usenix.org/system/files/conference/fast15/fast15-paper-thomson.pdf)
