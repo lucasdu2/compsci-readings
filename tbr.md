@@ -30,6 +30,9 @@ particular at consistency guarantees):
     - [Getting Hands on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
     - [Faster IO through io_uring](https://www.youtube.com/watch?v=-5T4Cjw46ys&t=62s)
 - [Meltdown and Spectre](https://meltdownattack.com/)
+- Apple AirDrop and Security:
+    - [AirDrop reverse engineering, security risks](https://www.usenix.org/system/files/sec19-stute.pdf)
+    - [PrivateDrop: Practical Privacy-Preserving Authentication for Apple AirDrop](https://www.usenix.org/system/files/sec21fall-heinrich.pdf)
 - [What is eBPF?](https://ebpf.io/what-is-ebpf/)
 - [Gossip Algorithms for Distributed Signal Processing](https://arxiv.org/pdf/1003.5309.pdf)
 - NTP/Marzullo's Algorithm:
