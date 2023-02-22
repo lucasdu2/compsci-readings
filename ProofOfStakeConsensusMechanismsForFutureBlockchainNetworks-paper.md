@@ -71,3 +71,75 @@ protocol
 
 ## Proof-of-Stake Details and Analysis
 Probably the most interesting part of the paper to me. 
+### Basic Fundamentals
+- Proof-of-Stake as an alternative to Proof-of-Work
+    - Instead of computational power resources, leaders selected based on stakes
+in the network (contributions to the blockchain network, stake of a node is the
+number of digital tokens it holds/deposits)
+    - Proof-of-Work: consume tons of energy working on computational problem
+to try to become leader
+    - Proof-of-Stake: random selection based on current stake (coin holdings),
+often using a "Follow-the-Satoshi" (FTS) algorithm
+    - FTS is basically is just a hash function that takes some random input 
+(e.g. previous block header, random string) and outputs an index. All tokens in
+the system should be indexed, and the miner that currently holds the token with
+the index output by FTS is elected the leader.
+    - So Proof-of-Stake can also be thought of as **a weighted random coin-tossing
+process**, but where having more stake in the system leads to a higher chance to win
+- 2 major advantages:
+    - Less computational power
+    - Opportunity for faster transaction confirmation speed, higher transaction
+throughput
+- On the second point, Tx/s = (Block-size) / (Tx-size * Block-time)
+    - PoS protocols usually have larger block size than the PoW-based Bitcoin
+network (although I'm not clear on if this is an actual limitation of PoW in
+Bitcoin or if it is simply an administrative decision) and shorter block time 
+(e.g. the amount of time it takes to confirm a block, probably because there is
+no expensive computation involved), which leads to much higher Tx/s
+    - For reference: Bitcoin (with Block-size = 1MB, Tx-size=250bytes,
+Block-time=600s) allows for roughly 7 Tx/s. Ouroboros, a formally defined PoS
+protocol, is able to allow around 257 Tx/s.
+
+### Stake Pools and Decentralization Analysis
+This section is heavy on math/game theory and I don't completely understand it,
+but the general takeaways can be summarized as follows:
+- A PoS system can be modeled as a non-cooperative game, which models a game where
+players have conflicting interests and act independently to mamximize their profit
+- 2 desirable outcomes in a non-cooperative game:
+    1. Dominant-strategy equilibrium: every player has a dominant strategy (e.g.
+a strategy that outperforms every other possible option), equilibrium is reached
+because every player will just choose the dominant strategy. However, dominant
+strategies often do not exist. 
+    2. Pure-strategy Nash equilibrium: every player cannot get a better payoff
+by independently switching to other strategies. 
+- The authors then model a PoS system as a game, and prove the following theorems
+about the game:
+    1. The game has at least one Nash equilibrium.
+    2. The strategy s, where a player invests *all* of its budget, dominates
+all strategies s', where a player invests *less* than its total budget.
+    3. The game has a unique Nash equilibrium s-star and convergence to s-star
+is guaranteed.
+    4. Theorem 4: The Nash equilibrium of the game is Pareto-optimal (i.e. the
+strategies which give a player the best payoff without decreasing the payoff
+of other players).
+- The authors then build an iterative algorithm that finds the Nash equilibrium
+of the game, run a series of simulations using the algorithm, and arrive at the 
+following good property about the game:
+    - **While a pool's cost and fee are not controlled by the network providers,
+the block reward and total network stake can be adjusted to maintain 
+decentralization in the network**
+    - Essentially, in an ideal PoS system where each players act rationally and
+the Nash equilibrium is reached, it is possible to maintain decentralization in 
+the system by adjusting system-level parameters: block reward and total network 
+stake
+
+### Outstanding Challenges for PoS Protocols
+- Security issues: there are a number of security issues described that are 
+open to further research
+- Incentive compatibility: need to design incentive mechanisms where rewards for
+good behavior outweigh the benefits of malicious behavior, not much research
+has been done in this area, authors suggest a game-theoretical analysis of users'
+rational behavior
+- Protocol designs: authors want more rigorous analysis of the impact of each 
+dimension of protocol design on important qualities like security, performance,
+finality in order to inform better future designs
