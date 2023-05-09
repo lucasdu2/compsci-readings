@@ -30,6 +30,8 @@ Here are some people and projects in the computer science world that I currently
 think are interesting/inspiring. This is mostly just for me to keep tabs on them.
 ## People
 - [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)
+- [Martin Kleppmann](https://martin.kleppmann.com/)
+- [Lawrence Paulson](https://www.cl.cam.ac.uk/~lp15/)
 - [Remzi Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/), [Andrea Arpaci-Dusseau](https://pages.cs.wisc.edu/~dusseau/)
 - [Papers We Love](https://pwlconf.org/)
 - [Jamie Brandon](https://www.scattered-thoughts.net/)
