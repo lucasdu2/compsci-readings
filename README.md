@@ -26,9 +26,10 @@ Below are some places to look for papers in areas that I think are cool.
     - [ACM](https://dl.acm.org/) publications (although these are not all publicly 
 accessible), especially from [PODC](https://www.podc.org/)
 
+## People, projects I like
 Here are some people and projects in the computer science world that I currently 
 think are interesting/inspiring. This is mostly just for me to keep tabs on them.
-## People
+### People
 - [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)
 - [Martin Kleppmann](https://martin.kleppmann.com/)
 - [Lawrence Paulson](https://www.cl.cam.ac.uk/~lp15/)
@@ -39,7 +40,7 @@ think are interesting/inspiring. This is mostly just for me to keep tabs on them
 - [Leslie Lamport](https://lamport.azurewebsites.net/)
 - [Andrew Kelly/Zig](https://ziglang.org/)
 
-## Projects
+### Projects
 - [Berkeley Sky Computing](https://sky.cs.berkeley.edu/publications/)
 - [LSD Lab](https://lsd.ucsc.edu/)
 - [DBOS](https://dbos-project.github.io/)
