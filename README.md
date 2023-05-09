@@ -1,20 +1,17 @@
 # compsci-readings
+## Purpose
 Place to keep track of non-coursework, non-book computer science literature that
-I have read or want to read. This generally consists of webpages, documents, and 
-academic papers I stumble upon. Basically just a miscellaneous set of computer
-science related readings that interest me. 
+I have read. This generally consists of webpages, documents, and academic papers 
+I stumble upon and think are interesting.
 
-This repo will be updated whenever there is something new to add and as long as 
-it is useful.
+This repo will be updated whenever there is something new to add and for as long 
+as it is useful.
 
-A To Be Read list (ala Goodreads) to track of papers I want to read can be found
-at [tbr.md](tbr.md).
-
-A good paper reading technique is introduced in 
+A paper reading technique is introduced in 
 ["How to Read a Paper" (Keshav)](http://web.stanford.edu/class/cs245/readings/how-to-read-a-paper.pdf).
 
-Below are some places to look for papers. Mostly for me, if I'm bored, want to 
-read a computer science paper, and have nothing already in mind.
+## Places to find papers (in case of boredom)
+Below are some places to look for papers in areas that I think are cool. 
 
 - **Distributed Systems**
     - [DistSys Reading Group](http://charap.co/category/reading-group/)
@@ -26,21 +23,23 @@ read a computer science paper, and have nothing already in mind.
     - [VLDB](http://vldb.org/pvldb)
 - **General**
     - [ACM Queue](https://queue.acm.org/), particularly the Research for Practice tag
-    - [USENIX](https://www.usenix.org/conferences) conferences, particularly OSDI, 
-FAST, and NSDI
     - [ACM](https://dl.acm.org/) publications (although these are not all publicly 
 accessible), especially from [PODC](https://www.podc.org/)
 
-Here are some people in the computer science world that I currently think
-are interesting/inspiring. This is also mostly just for me.
+Here are some people and projects in the computer science world that I currently 
+think are interesting/inspiring. This is mostly just for me to keep tabs on them.
+## People
 - [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)
 - [Remzi Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/), [Andrea Arpaci-Dusseau](https://pages.cs.wisc.edu/~dusseau/)
-- [Julia Evans](https://jvns.ca/)
-- [Dan Luu](https://danluu.com/)
 - [Papers We Love](https://pwlconf.org/)
 - [Jamie Brandon](https://www.scattered-thoughts.net/)
 - [James Mickens](https://mickens.seas.harvard.edu/)
 - [Leslie Lamport](https://lamport.azurewebsites.net/)
 - [Andrew Kelly/Zig](https://ziglang.org/)
 
-
+## Projects
+- [Berkeley Sky Computing](https://sky.cs.berkeley.edu/publications/)
+- [LSD Lab](https://lsd.ucsc.edu/)
+- [DBOS](https://dbos-project.github.io/)
+- [Berkeley BOOM (no longer active)](http://boom.cs.berkeley.edu/)
+- [PDOS](https://pdos.csail.mit.edu/)
