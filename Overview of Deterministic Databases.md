@@ -1,3 +1,5 @@
+tags: #compsci #databases #notes
+
 A pair of articles giving a broad overview of deterministic databases, as well 
 as their possible applications in industry. 
 

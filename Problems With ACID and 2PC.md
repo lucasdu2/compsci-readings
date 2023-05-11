@@ -1,3 +1,5 @@
+tags: #compsci #distributedsystems #notes 
+
 Two blog posts by Daniel Abadi on the problems with ACID and why we should
 move on from Two Phase Commit. These are very much related discussions on some
 venerable database-related conventions (ACID properties, Two Phase Commit for
@@ -41,7 +43,7 @@ Until they know the final outcome, they have to block other conflicting transact
 guaranteed to commit. Blocked transactions can, in turn, block other transactions,
 etc. which could cause a traffic jam. 
 - Below is a quote from the post that does a good job summarizing 2PC's problems:
-> o summarize the problems we discussed above: 2PC poisons a system along four 
+> To summarize the problems we discussed above: 2PC poisons a system along four 
 dimensions: latency (the time of the protocol plus the stall time of conflicting 
 transactions), throughput (because it prevents conflicting transactions from 
 running during the protocol), scalability (the larger the system, the more 

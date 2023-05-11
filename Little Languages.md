@@ -1,3 +1,5 @@
+tags: #compsci #programminglanguages #notes 
+
 Some notes on a set of webpages talking about "little languages", e.g.
 languages designed to solve a very specific problem (as opposed to general-purpose
 languages, which are the vast majority of popular languages today).

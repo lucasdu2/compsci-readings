@@ -1,4 +1,5 @@
-# Proof-of-Stake Mechanisms for Future Blockchain Networks
+tags: #compsci #distributedsystems #blockchain
+
 [link](https://ieeexplore.ieee.org/document/8746079)
 - Interesting overview of blockchain/distributed consensus, as well as an 
 introduction to **proof-of-stake consensus mechanisms**, which hold a lot of 
