@@ -43,13 +43,7 @@ Until they know the final outcome, they have to block other conflicting transact
 guaranteed to commit. Blocked transactions can, in turn, block other transactions,
 etc. which could cause a traffic jam. 
 - Below is a quote from the post that does a good job summarizing 2PC's problems:
-> To summarize the problems we discussed above: 2PC poisons a system along four 
-dimensions: latency (the time of the protocol plus the stall time of conflicting 
-transactions), throughput (because it prevents conflicting transactions from 
-running during the protocol), scalability (the larger the system, the more 
-likely transactions become multi-partition and have to pay the throughput and 
-latency costs of 2PC), and availability (the blocking problem we discussed above).  
-Nobody likes 2PC, but for decades, people have assumed that it is a necessary evil.
+> To summarize the problems we discussed above: 2PC poisons a system along four dimensions: latency (the time of the protocol plus the stall time of conflicting transactions), throughput (because it prevents conflicting transactions from running during the protocol), scalability (the larger the system, the more likely transactions become multi-partition and have to pay the throughput and latency costs of 2PC), and availability (the blocking problem we discussed above).  Nobody likes 2PC, but for decades, people have assumed that it is a necessary evil.
 
 ## Novel Ideas that Address 2PC Issues
 - Abadi believes we can do away to 2PC by interrogating a fundamental assumption
@@ -58,10 +52,7 @@ abort at any time, for any reason**
 - The arbitrary potential for a transaction to abort is the reason for much of
 the complexity/latency in the protocol
 - Below quote does a good job summarizing Abadi's point:
-> In my opinion we need to remove veto power from workers and architect systems 
-in which the system does not have freedom to abort a transaction whenever it wants 
-during its execution. Only logic within a transaction should be allowed to cause 
-a transaction to abort.
+> In my opinion we need to remove veto power from workers and architect systems in which the system does not have freedom to abort a transaction whenever it wants during its execution. Only logic within a transaction should be allowed to cause a transaction to abort.
 - Essentially, system-level problems should *not* cause aborts, all aborts should
 be known once the transaction finishes processing (which is before the 2PC
 protocol kicks in, 2PC only actually becomes relevant once a worker has completed
@@ -107,9 +98,7 @@ multiple machines is very complicated and difficult
 of the protocol
     - Additionally, the need for high availability often means we have to use
 strongly consistent replication schemes, which are expensive
-> In summary, it is really hard to guarantee ACID across scalable, highly 
-available, shared-nothing systems due to complex and high overhead commit 
-protocols, and difficult tradeoffs in available replication schemes.
+> In summary, it is really hard to guarantee ACID across scalable, highly available, shared-nothing systems due to complex and high overhead commit protocols, and difficult tradeoffs in available replication schemes.
 - NoSQL solutions loosen ACID guarantees to achieve higher performance
 - It is the view of Abadi and his collaborators that this is the "lazy solution"
     - Essentially, the problems of ensuring ACID properties gets shifted from

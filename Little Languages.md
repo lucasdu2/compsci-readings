@@ -23,10 +23,7 @@ vulnerabilites, and hacked designs)
 Interesting quote by Alan Kay on this point, from "A Conversation with Alan Kay"
 linked below:
 > If you look at software today, through the lens of the history of engineering, 
-it’s certainly engineering of a sort—but it’s the kind of engineering that people 
-without the concept of the arch did. Most software today is very much like an 
-Egyptian pyramid with millions of bricks piled on top of each other, with no 
-structural integrity, but just done by brute force and thousands of slaves.
+> it’s certainly engineering of a sort—but it’s the kind of engineering that people without the concept of the arch did. Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
 - Idea that all of the boilerplate, "noise" of modern software can be boiled 
 down to a few primitives, ala Maxwell's Equations in physics, is very appealing
     - On this point, see Alan Kay's STEPS project report [here](http://www.vpri.org/pdf/tr2012001_steps.pdf)
@@ -41,10 +38,7 @@ problem of bloated code
     - Sure, a high-level language will provide more nice abstractions
     - But there is an inherent problem with general-purpose languages, see quote
 below
-> The problem with general-purpose languages is that you still have to translate 
-your problem to an algorithm, and then express the algorithm in your target 
-language. Now, high-level languages are great at describing algorithms, but 
-unless the goal was to implement the algorithm then it’s just accidental complexity.
+> The problem with general-purpose languages is that you still have to translate your problem to an algorithm, and then express the algorithm in your target language. Now, high-level languages are great at describing algorithms, but unless the goal was to implement the algorithm then it’s just accidental complexity.
 - Generally, small languages give further benefits that are related to smaller
 code size/greater comprehensibility
     1. Better static analysis, because reasoning about the program becomes much easier
@@ -97,21 +91,11 @@ couple passes) below
 but rather how it was marketed or explained to the public
     - Commercialization and rapid dispersion of computing led to a sort of 
 lowest common denominator spread of ideas in software, see large quote below
-> One could actually argue—as I sometimes do—that the success of commercial 
-personal computing and operating systems has actually led to a considerable 
-retrogression in many, many respects.
+> One could actually argue—as I sometimes do—that the success of commercial personal computing and operating systems has actually led to a considerable retrogression in many, many respects.
 
-> You could think of it as putting a low-pass filter on some of the good ideas 
-from the ’60s and ’70s, as computing spread out much, much faster than educating 
-unsophisticated people can happen. In the last 25 years or so, we actually got 
-something like a pop culture, similar to what happened when television came on 
-the scene and some of its inventors thought it would be a way of getting 
-Shakespeare to the masses. But they forgot that you have to be more 
-sophisticated and have more perspective to understand Shakespeare. What 
-television was able to do was to capture people as they were.
+> You could think of it as putting a low-pass filter on some of the good ideas from the ’60s and ’70s, as computing spread out much, much faster than educating unsophisticated people can happen. In the last 25 years or so, we actually got something like a pop culture, similar to what happened when television came on the scene and some of its inventors thought it would be a way of getting Shakespeare to the masses. But they forgot that you have to be more sophisticated and have more perspective to understand Shakespeare. What television was able to do was to capture people as they were.
 
-> So I think the lack of a real computer science today, and the lack of real 
-software engineering today, is partly due to this pop culture.
+> So I think the lack of a real computer science today, and the lack of real software engineering today, is partly due to this pop culture.
 - The idea of a "pop culture" in computer science/programming that has led to a
 decrease in quality of software and a lack of "real" computer science seems a 
 little arrogant, but I think there is truth there, e.g. Javascript being an
