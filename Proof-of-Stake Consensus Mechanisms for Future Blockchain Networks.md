@@ -10,9 +10,9 @@ based consensus that is widely used
 Blockstack paper (an application of blockchain ideas to a PKI), and the original 
 Ethereum whitepaper. These papers were included in the 2022 iteration of the 
 old MIT 6.824 Distributed Systems course, which can currently be found online.
-    - [Bitcoin paper]()
-    - [Blockstack]()
-    - [Ethereum whitepaper]()
+    - [Bitcoin paper](https://bitcoin.org/bitcoin.pdf)
+    - [Blockstack](https://www.usenix.org/system/files/conference/atc16/atc16_paper-ali.pdf)
+    - [Ethereum whitepaper](https://ethereum.org/en/whitepaper/)
 
 ## Overview of Blockchain Networks and Consensus Mechanisms
 - In blockchain, transactions are stored in blocks, which are kept in a
